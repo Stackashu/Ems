@@ -1,0 +1,44 @@
+.att{
+    background: rgb(39, 39, 39);
+    margin: 0vw 3vw 2vw;
+    border-radius: 5px;
+    padding: 2vw;
+    display: flex;
+    gap: 9vw;
+}
+.att button{
+    border: none;
+    padding: 1vw 2vw;
+    background: green;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.att div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    font-size: 1.7vw;
+}
+
+.att div pre{
+    color: rgb(182, 179, 179);
+}
+@media (max-width: 480px) {
+    .att {
+        margin: 0vw 3vw 2vw;
+        padding: 1vw;
+        flex-direction: column;
+        gap: 3vw;
+    }
+    .att button {
+        padding: 2vw 1vw;
+        font-size: 3vw;
+    }
+    .att div {
+        gap: 9vw;
+        font-size: 1.2vw;
+        
+    }
+}

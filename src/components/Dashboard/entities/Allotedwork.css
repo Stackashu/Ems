@@ -1,0 +1,104 @@
+.workcon {
+  width: 95%;
+  height: 60vh;
+  background: #1a1919;
+  margin: 2vw 2.5vw;
+  padding: 1vw ;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+ 
+.excelChart h4{
+  font-size: 1.5vw;
+}
+@media (max-width: 768px) {
+  .workcon {
+    width: 95%;
+    height: 30vh;
+ 
+  }
+}
+
+@media (max-width: 480px) {
+  .workcon {
+    width: 95%;
+    height: 25vh;
+   
+  }
+}
+
+.emp::-webkit-scrollbar {
+  display: none;
+}
+
+.excelChart {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5vw;
+  padding: 1vw;
+  background: rgb(59, 59, 58);
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  .excelChart {
+   
+    padding: 1vw;
+  }
+  .excelChart h4{
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .excelChart {
+    padding: 0.5vw;
+  }
+}
+
+.emp {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  height: 50vh;
+}
+
+@media (max-width: 768px) {
+  .emp {
+    gap: 1vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .emp {
+    gap: 1vw;
+  }
+}
+
+.people {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  border: 1px solid rgb(34, 160, 108);
+  border-radius: 2px;
+  padding: 1vw 2vw;
+  cursor: pointer;
+  font-size: larger;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .people {
+    padding: .8vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .people {
+    padding: .8vw;
+  }
+}

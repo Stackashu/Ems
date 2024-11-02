@@ -1,0 +1,110 @@
+.outerContainer{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loginbox{
+    padding: 2vw 2vw;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid  rgb(71, 179, 116);
+}
+
+.farm{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.in{
+    font-size: 1.5vw;
+    padding: .6vw 2vw  .9vw;
+    background: transparent;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    border: 1px solid  rgb(71, 179, 116);
+    margin-top: 1.5vw;
+    padding-left: 2vw;
+}
+
+.in ::placeholder{
+    color: rgb(189, 189, 189);
+}
+
+.logbtn{
+    padding: 1vw 7vw;
+    background: rgb(56, 141, 91);
+    border: none;
+    margin-top: 5vw;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    transition: color ease-in-out .3s;
+    font-size: 1vw;
+}
+
+.logbtn:hover{
+    background: rgb(51, 122, 81);
+}
+pre{
+    margin-top: .5vw;
+}
+/* Responsive Design */
+
+@media only screen and (max-width: 780px) {
+    .Loginbox{
+       height: 40vh;
+       width: 85%;
+    }
+    .farm{
+        display: flex;
+        margin-top: 4vh;
+        gap: 2vh;
+    }
+    .in{
+        font-size: 4.5vw;
+        padding: 3vw 8vw;
+    }
+    .in::placeholder{
+        font-size: 4vw;
+    }
+    .logbtn{
+        padding: 3vw 12vw;
+        margin-top: 10vw;
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Loginbox{
+       height: 50vh;
+       width: 85%;
+    }
+    .farm{
+        display: flex;
+        margin-top: 4vh;
+        gap: 2vh;
+    }
+    .in{
+        font-size: 4.5vw;
+        padding: 3vw 4vw;
+    }
+    .in::placeholder{
+        font-size: 4vw;
+    }
+    .logbtn{
+        padding: 3vw 12vw;
+        margin-top: 5%;
+        font-size: 3vw;
+    }
+    pre{
+        font-size: 3vw;
+        margin-top: -2vw;
+    }
+}

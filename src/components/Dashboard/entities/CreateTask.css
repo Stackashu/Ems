@@ -1,0 +1,122 @@
+.cont {
+  background: rgb(26, 24, 24);
+  width: 95%;
+  margin: 0 2.5vw;
+  padding: 1vw 2vw;
+}
+
+.taskform {
+  display: flex;
+  gap: 20vw;
+}
+
+.leftside,
+.rightside {
+  width: 100%;
+  margin: 1vw;
+}
+
+@media (max-width: 768px) {
+  .taskform {
+    flex-direction: column;
+    gap: 1vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .taskform {
+    gap: 20vw;
+  
+  }
+}
+@media (max-width: 480px) {
+  .taskform {
+    flex-direction: column;
+    gap: 1vw;
+  }
+}
+
+.taskform h2 {
+  font-size: 1vw;
+  margin-top: 0.5vw;
+}
+@media (max-width: 480px) {
+  .taskform h2 {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 768px) {
+  .taskform h2 {
+    font-size: 4vw;
+  }
+}
+.createinput {
+  width: 100%;
+  margin-top: 0.5vw;
+  background: transparent;
+  border: none;
+  padding: 0.8vw 1.5vw;
+  border: 1px solid rgb(71, 179, 116);
+  border-radius: 5px;
+}
+@media (max-width: 480px) {
+  .createinput {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+
+  .createinputd {
+    padding: 0.8vw 1.5vw;
+    font-size: 4vw;
+  }
+}
+@media (max-width: 768px) {
+  .createinput {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+
+  .createinputd {
+    padding: 0.8vw 1.5vw;
+    font-size: 4vw;
+  }
+}
+
+.createinput::placeholder {
+  font-size: 1vw;
+}
+@media (max-width: 480px) {
+  .createinput::placeholder {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 768px) {
+  .createinput::placeholder {
+    font-size: 4vw;
+  }
+}
+.createinputd {
+  width: 100%;
+  margin-top: 0.5vw;
+  background: transparent;
+  border: none;
+  padding: 0.8vw 1.5vw;
+  border: 1px solid rgb(71, 179, 116);
+  border-radius: 5px;
+}
+
+.rightside button {
+  background: rgb(71, 179, 116);
+  padding: 1vw;
+  width: 100%;
+  margin-top: 0.5vw;
+  font-size: x-large;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rightside button:hover {
+  background: rgb(57, 139, 92);
+}
